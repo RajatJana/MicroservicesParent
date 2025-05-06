@@ -1,0 +1,124 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling for the user info display */
+.container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 420px;
+    max-width: 100%;
+    text-align: center;
+    margin: 80px auto; /* Adjusts position to ensure space below navbar */
+}
+
+/* Styling for the main heading */
+h1 {
+    color: #343a40;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #343a40;
+    font-weight: 500;
+}
+
+td {
+    background-color: #fff;
+    color: #495057;
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Additional styling for the user info section */
+.user-info {
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* Basic styling for the nav bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    position: fixed; /* Fix navbar to the top */
+    top: 0;
+    width: 100%; /* Full-width navbar */
+    z-index: 1000;
+}
+
+/* Reset body padding to avoid overlap */
+body {
+    padding-top: 50px; /* Adjust according to the navbar height */
+}
+
+/* Basic styling for the nav bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #575757;
+}
+
+/* Exit button styling */
+.navbar .exit {
+    float: right; /* This floats the Exit button to the right side of the navbar */
+}
+
+.navbar .exit a {
+    background-color: #ff4d4d; /* Red background for Exit button */
+}
+
+.navbar .exit a:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
