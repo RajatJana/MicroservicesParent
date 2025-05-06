@@ -9,6 +9,5 @@
         <module>NotificationService</module>
         <module>PaymentService</module>
         <module>OrderService</module>
-        <module>UserService</module>
     </modules>
 </project>
